@@ -58,7 +58,7 @@ serviceCheckboxes.forEach(function(checkbox) {
         let serviceCost = 0;
         serviceCheckboxes.forEach(function(box) {
             if (box.checked) {
-                serviceCost += 3000; 
+                serviceCost += 5000; 
             }
         });
         pricePerHour.innerHTML = '₱' + ((parseInt(hourValue.innerHTML) * 1000) + serviceCost).toLocaleString();
