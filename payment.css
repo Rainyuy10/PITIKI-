@@ -1,0 +1,63 @@
+.payment-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.payment-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.payment-container input,
+.payment-container select,
+.payment-container button {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.payment-container input:focus,
+.payment-container select:focus,
+.payment-container button:focus {
+    border-color: #a3a3a3;
+    outline: none;
+}
+
+#confirmPayment {
+    background-color: #002fff;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#confirmPayment:hover {
+    background-color: #006eff;
+}
+#backButton {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+#backButton:hover {
+    background-color: #d32f2f;
+}

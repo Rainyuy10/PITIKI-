@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="icon" type="image/x-icon" href="img/LOGO.ico">
+</head>
+<body>
+    <div class="payment-container">
+        <div id="messageBox" style="color: red; margin-bottom: 10px;"></div>
+        <h2>Payment Details</h2>
+        <div id="summary"></div>
+        <input type="text" id="name" placeholder="Your Name" />
+        <input type="text" id="contact" placeholder="Your Email Address" />
+        <select id="paymentMethod">
+            <option value="">Select Payment Method</option>
+            <option value="Paypal">Paypal</option>
+            <option value="Gcash">Gcash</option>
+            <option value="Paymaya">Paymaya</option>
+        </select>
+        <input type="number" id="paymentAmount" placeholder="Enter Payment Amount" />
+        <button id="confirmPayment">Confirm Payment</button>
+        <button id="backButton">BACK TO MAIN PAGE</button>
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+</html>
