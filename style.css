@@ -65,7 +65,9 @@ html, body{
     justify-content: center;
     align-content: center;
     box-shadow: 2px 2px 1px white;
+    place-items: center;
     z-index: 9999;
+    display: flex;;
 }
 
 .links a {
@@ -138,6 +140,7 @@ html, body{
 
 
 .intro img {
+    margin-top: 10%;
     width: 50%;
     height: auto;
 }
